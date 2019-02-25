@@ -1,0 +1,368 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <title>Пионерия</title><style>.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header {
+    background:url(resource/pio.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.content-wrapper{
+    background-color: black;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    background-color:black;
+    padding: 100px 0;    
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    color: white;
+}
+
+hr.star-light:after,
+
+section.primary h2{    
+    color: white;
+    }
+    
+section.success{
+    background-color: gray;
+    color: white;
+    }
+section.success1{
+    background:url(resource/12.jpg);
+    color: white;
+
+    }
+    body {
+    margin-top:60px;
+}
+/* this is just for the demo */</style>
+  </head>
+  <body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Пионерия</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="indexmain.html">Назад</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header id="page-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page Content -->
+<div class="content-wrapper">
+<section class="success" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white">«Не нужно бросать наших младших товарищей. Вне союза они могут попасть под чуждое пролетариату влияние, и вина за это будет лежать на нас», – было написано в резолюции первого съезда комсомола. К моменту распада СССР Всесоюзная пионерская организация имени В.И. Ленина была самой огромной массовой коммунистической организацией детей и подростков в стране, она играла одну из главных ролей в идейном воспитании советской молодёжи наряду с комсомолом (ВЛКСМ), школой, творческими, спортивными и прочими общественными организациями.</p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">История</h1>
+    <p class="lead" style="color:white">Пионерская организация была создана по решению Всероссийской конференции ВЛКСМ 19 мая 1922 г. и официально распущена в 1991 г. До 1924 года она носила имя Спартака, а после смерти Ленина была переименована в его честь. Изначально при создании пионерии взяли за образец скаутскую организацию, впоследствии эта связь замалчивалась, «скаутизм» был объявлен буржуазным фашистским детским движением.<br>
+      <br>
+    К детям советской страны её правительство относилось как к строительному материалу для создания будущих убеждённых борцов за дело коммунистической партии, это и стало главной целью создания детской коммунистической организации. Важнейшей задачей было вырастить человека нового типа, не скованного прежней, «буржуазной» моралью. Н.К. Крупская писала: «Взрослому человеку, выросшему в капиталистическом строе, очень трудно отказаться от старых навыков, от старых привычек, от старых отношений. А наши пионеры – ребята, у которых ещё складываются, ещё не выработаны окончательно новые отношения к общественным явлениям. Вот почему пионердвижение имеет такое совершенно исключительное значение».</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white">На III съезде РКСМ В.И. Ленин возвел эту идеологическую селекцию, отрицание самого базиса «устаревшего» мировоззрения в ранг программы. «Всякую такую нравственность, взятую из внечеловеческого, внеклассового понятия, мы отрицаем, – заявлял он с трибуны. – Мы говорим, что наша нравственность подчинена вполне интересам классовой борьбы пролетариата… Мы говорим: нравственность – это то, что служит разрушению старого эксплуататорского общества и объединению всех трудящихся вокруг пролетариата, созидающего новое общество коммунистов»… Эта речь вождя стала фундаментом для всех последующих трудов о новой советской морали. Конечной целью воспитания пионера являлось достижение такого уровня сознательности, при котором он воспринимал бы требования советского общества, как свои собственные.<br>
+      <br>
+    Пионерское обещание, принятое после развенчания культа личности Сталина в 1957 г., гласило: «Я, юный пионер Советского Союза, перед лицом своих товарищей торжественно обещаю: горячо любить свою Советскую Родину; жить, учиться и бороться, как завещал великий Ленин, как учит Коммунистическая партия.<br>
+«К борьбе за дело Коммунистической партии будь готов!»<br>
+На призыв «Будь готов!» пионер отвечал: «Всегда готов!»<br>
+Пионеры приветствовали друг друга салютом и, независимо от формы одежды, носили на шее красный галстук.<br>
+Приведём последнюю редакцию законов юных пионеров.<br>
+Пионер предан Родине, партии, коммунизму. Пионер готовится стать комсомольцем. Пионер держит равнение на героев борьбы и труда. Пионер чтит память павших борцов и готовится стать защитником Родины. Пионер настойчив в учении, труде и спорте. Пионер – честный и верный товарищ, всегда смело стоит за правду. Пионер – товарищ и вожак октябрят. Пионер – друг пионерам и детям трудящихся всех стран.</p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white">В первые годы советской власти пионеры помогали бороться с беспризорностью, пытались создавать новые отряды в деревнях. В ходе государственной кампании по ликвидации неграмотности учились читать и писать, агитировали учиться других детей и взрослых, и сами учили их, собирали книги и устраивали библиотеки. Участвуя в кампании за техническую грамотность, занимались в технических кружках, собирали радиоприёмники и другие бытовые приборы и отправляли их в подшефные сёла, строили детские порты и железные дороги и работали на них. Юные натуралисты ухаживали за животными, выращивали почтовых голубей, коней и служебных собак для армии. Ребята ходили в геологические походы, в экспедиции по изучению природы, собирали лекарственные растения и плоды. Пионеры работали в колхозах, на полях, охраняли урожай и колхозное имущество, писали письма в газеты или в соответствующие органы власти о нарушениях, которые замечали вокруг. Занятия детям старались подбирать по силам и интересам. В плане идеологического воспитания очень высоко оценивалось значение внешкольной, кружковой деятельности. Поэтому предложенные вожатыми задания пионеры выполняли если не с энтузиазмом, то с осознанием того, что делают что-то важное, полезное для всей страны. Пионеров, которые старались уклоняться от общественных работ, из организации не исключали, но всеми возможными способами старались наставить на путь истинный — «прорабатывали» на сборах, беседовали с их семьями и пр. Исключить из пионеров могли, в первую очередь, за провинности их родителей – например, детей «врагов народа».</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white">Пионерская организация стала действительно массовой, однако постепенно её работа становилась всё более формализованной, ограничивалась рамками школы, несшей увеличившуюся нагрузку по воспитанию будущих коммунистов. В каждой школе работал старший пионерский вожатый на ставке, который и должен был организовывать работу дружин. Отрядные вожатые из старшеклассников-комсомольцев всё более формально относились к своей общественной работе. На практике пионерские сборы зачастую проходили под руководством учителей. При школах создавали клубы интернациональной дружбы, организовывали походы, работы по уборке пришкольных территорий, помощь ветеранам, сбор вторсырья, военно-спортивные игры, торжественные пионерские линейки и прочие мероприятия, которые всё меньше были интересны подросткам и часто проводилось «для галочки», для отчета.</p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white">К моменту распада СССР в школьных дружинах в пионеры принимали всех детей от 10 до 15 лет. Нет в нашей стране ни одного человека, рожденного до 1980 года, который не был бы пионером. Не только бывшие пионерские активисты, но многие сегодня вспоминают свои пионерские годы с ностальгией, однако при детальных беседах выясняется, что скучают последние просто по времени своего детства, вспоминают с теплом интересные события вроде походов, посадок деревьев и пр. В то же время идеологическая составляющая, пропитавшая всю жизнь советской страны, казалась им в детстве скучной, набившие оскомину лозунги и призывы они просто пропускали мимо ушей.</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Белорусская республиканская пионерская организация</h1>
+    <p class="lead" style="color:white">Сегодня в большой пионерской семье 67444 детей, подростков и взрослых из всех областей, районов и городов республики.<br>
+      <br>
+Общественное объединение «Белорусская республиканская пионерская организация» (сокращённо ОО «БРПО») – это самодеятельное, добровольное, общественное объединение детей, подростков и взрослых, ориентированное на общечеловеческие ценности, представляющее и защищающее интересы и права своих членов. Деятельность БРПО распространяется на всю территорию Республики Беларусь.<br>
+<br>
+Самодеятельная – это организация, где дети наравне со взрослыми сами планируют, сами проводят, сами подводят итоги интересных и полезных дел.<br>
+<br>
+Добровольная – это означает, что дети вступают в её ряды по собственному желанию (те, кто младше 16 лет – с согласия родителей).<br>
+<br>
+Общественная – потому что пионерам нравиться помогать другим и заниматься полезной деятельностью.<br>
+<br>
+День БРПО – 13 сентября 1990 года, в этот день состоялся очередной, X слет пионеров Беларуси, на котором было заявлено о самодеятельном характере деятельности и был принят первый Устав Белорусской республиканской пионерской организации.<br>
+<br>
+Cлову «пионер» придается его первоначальный смысл – новатор, первопроходец, лидер.<br>
+Быть «первопроходцем» – означает находить хорошее в людях, открывать себя для людей и людей для себя.<br>
+Пионер – организатор, творец, друг, товарищ. Он активный и неутомимый, открытый навстречу людям, стремящийся сделать жизнь хоть чуть-чуть чище, краше, добрее.<br>
+Пионер в том смысле «первый», что не боится трудностей, предпочитает творчество во всём, готов первым протянуть бескорыстную руку помощи человеку, родной природе, Отечеству.<br>
+ОО «БРПО» имеет свой Устав, символику, Положения, регламентирующие внутриорганизационную деятельность. Как самодеятельное самоуправляемое общественное, имеющее республиканский статус объединение, БРПО зарегистрировано Министерством юстиции Республики Беларусь.<br>
+Современная пионерская организация сохранила традиции, заложенные более восьми десятилетий тому назад в далекие 20-е годы. Знание истории пионерского движения – добрая пионерская традиция, корни у нее глубокие. Сегодняшним пионерам интересно знать, как создавалась и развивалась их организация.</p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Цель организации</h1>
+    <p class="lead" style="color:white">Цель БРПО — помочь каждому пионеру стать Гражданином, своими делами и поступками приносить пользу себе, своей семье, Родине.<br>
+      <br>
+      Каждый член БРПО, следуя традициям организации, стремится:<br>
+      <br>
+    *беречь свое доброе имя, достоинство организации;<br>
+    *поступать так, чтобы его слово не расходилось с делом;<br>
+    *заботиться обо всех, кто нуждается в помощи;<br>
+    *быть хозяином своей организации, с уважением относиться к труду, быть бережливым, уметь зарабатывать деньги, знать им цену;<br>
+    *уважать мнение товарищей, быть верным дружбе.</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Девиз организации</h1>
+    <p class="lead" style="color:white">Пионер! К делам на благо Родины, к добру и справедливости будь готов!
+Ответ: Всегда готов!</p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Законы</h1>
+    <p class="lead" style="color:white">*«Закон чести» Пионер бережёт своё доброе имя, достоинство организации.<br>
+*«Закон слова» Слово пионера не расходится с делом.<br>
+*«Закон заботы» Пионер заботится обо всех, кто нуждается в помощи.<br>
+*«Закон хозяина» Пионер – хозяин своей организации, с уважением относится к труду, бережлив, умеет зарабатывать деньги, знает им цену.<br>
+*«Закон дружбы» Пионер уважает мнение товарищей, верен дружбе.</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white; font-size: 16px">ГУО "Гимназии №24 г. Минска"<br>
+    								   г. Минск, 220030, улица Интернациональная, 40;<br>
+    								   (017) 355 66 73 <a href="gymn24@minsk.edu.by" style="color:white">gymn24@minsk.edu.by</a>
+    								   </p>
+  </div>
+</section>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+	let modalId = $('#image-gallery');
+
+$(document)
+  .ready(function () {
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current) {
+      $('#show-previous-image, #show-next-image')
+        .show();
+      if (counter_max === counter_current) {
+        $('#show-next-image')
+          .hide();
+      } else if (counter_current === 1) {
+        $('#show-previous-image')
+          .hide();
+      }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr) {
+      let current_image,
+        selector,
+        counter = 0;
+
+      $('#show-next-image, #show-previous-image')
+        .click(function () {
+          if ($(this)
+            .attr('id') === 'show-previous-image') {
+            current_image--;
+          } else {
+            current_image++;
+          }
+
+          selector = $('[data-image-id="' + current_image + '"]');
+          updateGallery(selector);
+        });
+
+      function updateGallery(selector) {
+        let $sel = selector;
+        current_image = $sel.data('image-id');
+        $('#image-gallery-title')
+          .text($sel.data('title'));
+        $('#image-gallery-image')
+          .attr('src', $sel.data('image'));
+        disableButtons(counter, $sel.data('image-id'));
+      }
+
+      if (setIDs == true) {
+        $('[data-image-id]')
+          .each(function () {
+            counter++;
+            $(this)
+              .attr('data-image-id', counter);
+          });
+      }
+      $(setClickAttr)
+        .on('click', function () {
+          updateGallery($(this));
+        });
+    }
+  });
+
+// build key actions
+$(document)
+  .keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+          $('#show-previous-image')
+            .click();
+        }
+        break;
+
+      case 39: // right
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+          $('#show-next-image')
+            .click();
+        }
+        break;
+
+      default:
+        return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  });
+
+	</script>
+  </body>
+</html>

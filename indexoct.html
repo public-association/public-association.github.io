@@ -1,0 +1,384 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <title>Октябрята</title><style>.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header {
+    background:url(resource/oct.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.content-wrapper{
+    background-color: black;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+section {
+    background-color:black;
+    padding: 100px 0;    
+    width: 100%;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    color: white;
+}
+
+hr.star-light:after,
+
+section.primary h2{    
+    color: white;
+    }
+    
+section.success{
+    background-color: gray;
+    color: white;
+    }
+section.success1{
+    background:url(resource/12.jpg);
+    color: white;
+
+    }
+    body {
+    margin-top:60px;
+}
+/* this is just for the demo */</style>
+  </head>
+  <body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Октябрята</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="indexmain.html">Назад</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header id="page-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page Content -->
+<div class="content-wrapper">
+<section class="success" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Описание</h1>
+    <p class="lead" style="color:white">Термин октябрята возник в 1923—1924 годах, когда в Москве стали возникать первые группы детей, в которые принимались ребята — ровесники Великой Октябрьской социалистической революции.<br>
+      <br>
+Группы октябрят создавались в первых классах школ и действовали до вступления октябрят в пионеры и образования пионерских отрядов. При вступлении в ряды октябрят детям выдавался нагрудный значок — пятиконечная рубиновая звезда с портретом Ленина в детстве. Символом группы был красный октябрьский флажок. Группа (в некоторых школах — отряд) октябрят состояла из нескольких подразделений, называемых «звёздочками», каждая из которых включала обычно по 5 детей — символ пятиконечной звезды. Принцип создания отряда октябрят был прост: отряд — это школьный класс. Как правило в «звёздочке» каждый октябрёнок занимал одну из «должностей» — командир «звёздочки», цветовод, санитар, библиотекарь, политинформатор или физкультурник. В некоторых школах, командир «звёздочки» по требованию учителей нашивал на рукав кителя нашивку (командир отряда — 2 нашивки).<br>
+<br>
+<br>
+ЦК ВЛКСМ утвердил набор «правил» для октябрят:<br>
+<br>
+Октябрята — будущие пионеры.<br>
+Октябрята — прилежные ребята, любят школу, уважают старших.<br>
+Только тех, кто любит труд, октябрятами зовут.<br>
+Октябрята — правдивые и смелые, ловкие и умелые.<br>
+Октябрята — дружные ребята, читают и рисуют, играют и поют, весело живут.<br>
+<br>
+Деятельность октябрят проходила преимущественно в игровой форме и организовывалась учителями и вожатыми. Ежегодно 16—22 апреля проводилась всесоюзная неделя октябрят. В школе для октябрят могли организоваться «ленинские чтения», когда 22-го числа каждого месяца назначенный старшеклассник приходил в класс и читал рассказы о В. И. Ленине (его день рождения 22-го апреля 1870 г.). </p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Печатные издания</h1>
+    <p class="lead" style="color:white">Для октябрят издавались всесоюзные («Весёлые картинки» и «Мурзилка» — дошкольный возраст и младшие классы, «Костёр», «Юный техник» и «Юный натуралист» — для предпионерского и пионерского возраста) и республиканские журналы. Например, в Молдавской ССР издавался журнал «Стелуца» («Звёздочка») на молдавском и русском языках. В Киеве печатался журнал «Барвинок» на русском и украинском языках. Материалы, предназначенные для октябрят, публиковали и различные пионерские газеты.<br>
+      <br>
+Ежегодно для октябрят издательством «Малыш» выпускался настольный календарь «Звёздочка». Методические материалы о работе с октябрятами регулярно печатались в журналах «Вожатый», «Начальная школа», «Воспитание школьников».<br>
+<br>
+Объединения младших школьников при пионерских и других детских организациях, подобные октябрятам, действуют во многих странах.</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Правила октябрят (Старые)</h1>
+    <p class="lead" style="color:white">Наших правил ровно пять.<br>
+Мы их будем выполнять<br>
+<br>
+Мы ребята ребята,<br>
+Потому что октябрята .<br>
+октябренок , не забудь —<br>
+В пионеры держишь путь!<br>
+<br>
+Мы отважные ребята,<br>
+Потому что октябрята.<br>
+Как страны родной герои,<br>
+Жизнь свою хотим построить.<br>
+<br>
+Мы прилежные ребята,<br>
+Потому что октябрята.<br>
+Только тех, кто любит труд,<br>
+Октябрятами зовут.<br>
+<br>
+Мы правдивые ребята,<br>
+Потому что октябрята.<br>
+Никогда, нигде, ни в чём<br>
+Мы друзей не подведём.<br>
+<br>
+Мы весёлые ребята,<br>
+Потому что октябрята.<br>
+Наши песни, танцы, смех<br>
+Делим поровну на всех. </p>
+  </div>
+</section>
+<hr>
+<section class="primary" class="py-5">
+  <div class="container">
+    <h1 class="display-4" style="color:white">Правила октябрят (Новые)</h1>
+    <p class="lead" style="color:white">Мы надежные ребята.<br>
+Наше имя – Октябрята.<br>
+Нам не надо лишних слов.<br>
+Будь готов! Всегда готов!<br>
+<br>
+1. Октябрята – будущие пионеры.<br>
+Октябренок, не забудь –<br>
+В пионеры держишь путь.<br>
+<br>
+2. Октябрята – активные ребята.<br>
+Вместе весело живем,<br>
+Мы читаем, играем, рисуем и поем.<br>
+<br>
+3. Октябрята – спортивные ребята.<br>
+Ровным строем на площадку<br>
+Мы выходим на зарядку.<br>
+<br>
+4. Октябрята – отважные ребята.<br>
+Как страны родной герои,<br>
+Жизнь свою хотим построить.<br>
+<br>
+5. Октябрята – дружные ребята.<br>
+Никогда, нигде, ни в чем<br>
+Мы друзей не подведем.<br>
+<br>
+6. Октябрята – веселые ребята.<br>
+Наши песни, танцы, смех<br>
+Делим поровну на всех.<br>
+<br>
+7. Октябрята – прилежные ребята.<br>
+Только тех, кто любит труд,<br>
+Октябрятами зовут.<br>
+<br>
+8. Октябрята – умные ребята.<br>
+В школу ходим мы учиться,<br>
+На уроках не гулять<br>
+И в дневник оценку «десять»<br>
+Можно смело нам писать.<br>
+<br>
+9. Октябрята – добрые и отзывчивые ребята.<br>
+Мы – добрые и отзывчивые ребята,<br>
+Потому что октябрята<br>
+Мы поможем, защитим<br>
+И в обиду не дадим!<br>
+<br>
+10. Октябрята – талантливые ребята.<br>
+Мы искатели и мечтатели,<br>
+Творцы и созидатели<br>
+Будем Родине служить<br>
+И Отчизной дорожить.</p>
+  </div>
+</section>
+<hr>
+<section class="success" class="py-5">
+  <div class="container">
+    <p class="lead" style="color:white; font-size: 16px">ГУО "Гимназии №24 г. Минска"<br>
+    								   г. Минск, 220030, улица Интернациональная, 40;<br>
+    								   (017) 355 66 73 <a href="gymn24@minsk.edu.by" style="color:white">gymn24@minsk.edu.by</a>
+    								   </p>
+  </div>
+</section>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+	let modalId = $('#image-gallery');
+
+$(document)
+  .ready(function () {
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current) {
+      $('#show-previous-image, #show-next-image')
+        .show();
+      if (counter_max === counter_current) {
+        $('#show-next-image')
+          .hide();
+      } else if (counter_current === 1) {
+        $('#show-previous-image')
+          .hide();
+      }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr) {
+      let current_image,
+        selector,
+        counter = 0;
+
+      $('#show-next-image, #show-previous-image')
+        .click(function () {
+          if ($(this)
+            .attr('id') === 'show-previous-image') {
+            current_image--;
+          } else {
+            current_image++;
+          }
+
+          selector = $('[data-image-id="' + current_image + '"]');
+          updateGallery(selector);
+        });
+
+      function updateGallery(selector) {
+        let $sel = selector;
+        current_image = $sel.data('image-id');
+        $('#image-gallery-title')
+          .text($sel.data('title'));
+        $('#image-gallery-image')
+          .attr('src', $sel.data('image'));
+        disableButtons(counter, $sel.data('image-id'));
+      }
+
+      if (setIDs == true) {
+        $('[data-image-id]')
+          .each(function () {
+            counter++;
+            $(this)
+              .attr('data-image-id', counter);
+          });
+      }
+      $(setClickAttr)
+        .on('click', function () {
+          updateGallery($(this));
+        });
+    }
+  });
+
+// build key actions
+$(document)
+  .keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+          $('#show-previous-image')
+            .click();
+        }
+        break;
+
+      case 39: // right
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+          $('#show-next-image')
+            .click();
+        }
+        break;
+
+      default:
+        return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  });
+
+	</script>
+  </body>
+</html>
